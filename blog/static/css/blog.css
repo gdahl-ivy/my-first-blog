@@ -1,14 +1,9 @@
-h1 a, h2 a {
-    color: #C25100;
-    font-family: 'Lobster';
-}
-
-body {
-    padding-left: 15px;
+:root {
+    --theme-color: #77ad01;
 }
 
 .page-header {
-    background-color: #C25100;
+    background-color: var(--theme-color);
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -68,12 +63,12 @@ h4 {
 
 .btn-secondary,
 .btn-secondary:visited {
-    color: #C25100;
+    color: var(--theme-color);
     background: none;
-    border-color: #C25100;
+    border-color: var(--theme-color);
 }
 
 .btn-secondary:hover {
     color: #FFFFFF;
-    background-color: #C25100;
+    background-color: var(--theme-color);
 }
